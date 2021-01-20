@@ -7,3 +7,14 @@ body {
     height: 60px;
     padding-top: 5px;
   }
+
+  .foobar-quix-button {
+  	color: #fff;
+    background-color: #337ab7;
+    border-radius: 4px;
+    padding: 7px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    display:block;
+    margin-top:5px;
+  }

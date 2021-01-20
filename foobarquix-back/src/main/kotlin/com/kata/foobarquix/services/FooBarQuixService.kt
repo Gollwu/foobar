@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component
 class FooBarQuixService {
 
     fun convertNumber(inputNumber: Int): String {
-        return ""
+        return "test"
     }
 
 }

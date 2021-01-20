@@ -8,15 +8,20 @@ import { FooBarQuixService } from '../foo-bar-quix.service';
 })
 export class FooBarQuixComponent implements OnInit, OnDestroy {
 
+  numbersConverted: NumberConverted[];
+  numberSubscription: Subscription;
+
   constructor(private fooBarQuixService: FooBarQuixService) { }
 
   ngOnInit(): void {
   }
 
   ngOnDestroy(): void {
+    
   }
 
   convertNumber(inputNumber: number): void {
+      this.fooBarQuixService.sendNumberToServer(inputNumber);
   }
 
 }
