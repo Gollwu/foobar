@@ -1,3 +1,4 @@
 export class Result{
-    result: string;
+  numberToConvert: number;
+  result: string;
 }
